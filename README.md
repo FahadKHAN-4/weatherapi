@@ -2,14 +2,20 @@
 
 - Clone the Git repository
 
-## Build the docker image
+## 1. Build the docker image from Scratch
 
 ```bash
 $ docker-compose up --build
 ```
 
-## Run the image
-
 ```bash
 $ docker-compose up
 
+
+## 2. Run the application:
+
+```bash
+$ docker pull fahadkhann/weatherapi-app:latest
+
+```bash
+$ docker run -p 3000:3000 fahadkhann/weatherapi-app:latest

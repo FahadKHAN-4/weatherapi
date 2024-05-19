@@ -1,4 +1,6 @@
-Clone the Git repository
+## Setup
+
+- Clone the Git repository
 
 ## Build the docker image
 
@@ -9,6 +11,5 @@ $ docker-compose up --build
 ## Run the image
 
 ```bash
-# development
 $ docker-compose up
 

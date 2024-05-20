@@ -20,3 +20,9 @@ $ docker pull fahadkhann/weatherapi-app:latest
 
 ```bash
 $ docker run -p 3000:3000 fahadkhann/weatherapi-app:latest
+```
+
+## 3. API endpoints
+
+- Post: http://localhost:3000/weather/savetodb
+- Get: http://localhost:3000/weather/getweather?lat={}&lon={}
